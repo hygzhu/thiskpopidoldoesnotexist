@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   #Static pages
   root 'static_pages#home'
 
+  get '/static_pages_controller/refresh_image', to: 'static_pages#refresh_image'
+
 end

@@ -1,6 +1,8 @@
 import '../stylesheets/application'
 import './bootstrap_custom.js'
 
+import './custom.js'
+
 global.toastr = require("toastr") //Import toastr
 
 // This file is automatically compiled by Webpack, along with any other files
